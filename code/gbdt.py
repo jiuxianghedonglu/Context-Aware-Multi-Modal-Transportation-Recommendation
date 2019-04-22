@@ -8,8 +8,6 @@
 import numpy as np
 
 import lightgbm as lgb
-import xgboost as xgb
-import catboost as catb
 
 import gen_features
 

@@ -10,12 +10,9 @@ import json
 import pandas as pd
 import numpy as np
 
-from sklearn.decomposition import TruncatedSVD, NMF
-
-from sklearn.manifold import TSNE
+from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
 from tqdm import tqdm
-from itertools import combinations
 
 
 def read_profile_data():
